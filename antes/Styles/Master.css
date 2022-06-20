@@ -1,0 +1,262 @@
+body{
+    margin: 0px;
+
+}
+
+.Contenedor_Master{
+    
+    width: 1326px;
+    height: 649px;
+    background-size: 1320px 650px;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    
+}
+.Contenedor_Master img{
+    width: 100%;
+    height: 100%;
+}
+.cama{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    width: 21%;
+}
+.fondo{
+    position: absolute;
+    top: -1%;
+    left: 4%;
+    width: 87%;
+    height: 101%;
+}
+.cama img:hover{
+    background-image: url("Objets_Color/Camac.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}.mueble{
+    position: absolute;
+    top: 57%;
+    left: 1%;
+    width: 42%;
+    height: 43%;
+}
+.mueble img:hover{
+    background-image: url("Objets_Color/Mueblec.png");
+    background-size: 99% 99%;
+    background-repeat: no-repeat;    
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.piano{
+    position: absolute;
+    top: 53%;
+    left: 0%;
+    width: 22%;
+    z-index: 2;
+}
+.piano img:hover{
+    background-image: url("Objets_Color/Pianoc.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.cuadro{
+    position: absolute;
+    top: 51%;
+    left: 1%;
+    width: 16%;
+}
+.cuadro img:hover{
+    background-image: url("Objets_Color/Cuadroc.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.guitarra{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 5%;
+}
+.guitarra img:hover{
+    background-image: url("Objets_Color/Guitarrac.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.pizarron{
+    position: absolute;
+    top: 36%;
+    left: 3.5%;
+    width: 2%;
+}
+
+    /*creo que esto no es necesario xd
+    .pizarron img:hover{}*/
+
+.ropa{
+    position: absolute;
+    top: 71%;
+    left: 31%;
+    width: 11%;
+    height: 28%;
+    z-index: 2;
+}
+.ropa img:hover{
+    background-image: url("Objets_Color/Ropac.png");
+    background-size: 99% 99%;
+    background-repeat: no-repeat;  
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.muebles{
+    position: absolute;
+    top: 62%;
+    left: 31%;
+    width: 14%;
+}
+.muebles img:hover{
+    background-image: url("Objets_Color/Mueblesc.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.cosas_en_los_muebles{
+    position: absolute;
+    top: 58%;
+    left: 31%;
+    width: 14%;
+}
+.cosas_en_los_muebles img:hover{
+    background-image: url("Objets_Color/Cosas\ en\ los\ mueblesc.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.guitarra_mamalona{
+    position: absolute;
+    top: 46%;
+    left: 49%;
+    width: 9%;
+}
+.guitarra_mamalona img:hover{
+    background-image: url("Objets_Color/Guitarra\ y\ silla\ mamalonac.png");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.mesas{
+    position: absolute;
+    top: 49%;
+    left: 53%;
+    width: 35%;
+    height: 40%;
+}
+.mesas img:hover{
+    background-image: url("Objets_Color/mesasc.png");
+    background-size: 100% 99%;
+    background-repeat: no-repeat;
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.silla_uwu{
+    position: absolute;
+    top: 72%;
+    left: 71%;
+    width: 15%;
+}
+.silla_uwu img:hover{
+    background-image: url("Objets_Color/Silla\ uwuc.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.litera{
+    position: absolute;
+    top: 29%;
+    left: 51%;
+    width: 9%;
+}
+.litera img:hover{
+    background-image: url("Objets_Color/Litera\ y\ Cosas\ arribac.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 101%;
+    transform: translate(7px, -7px);
+}
+.menu{
+    position: absolute;
+    top: 0%;
+    left: 89%;
+    width: 11%;
+    height: 100%;
+}
+
+.Boton{
+    position: absolute;
+    top: 12%;
+    left: 92%;
+    width: 5%;
+}
+.Boton img:hover{
+    background-image: url("Objets_Color/Botonc.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 120%;
+    
+}
+.Boton_2{
+    position: absolute;
+    top: 23%;
+    left: 92%;
+    width: 5%;
+}
+.Boton_2 img:hover{
+    background-image: url("Objets_Color/Botonc2.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 120%;
+}
+.Boton_3{
+    position: absolute;
+    top: 35%;
+    left: 92%;
+    width: 5%;
+}
+.Boton_3 img:hover{
+    background-image: url("Objets_Color/Botonc3.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 120%;
+}
+.Boton_4{
+    position: absolute;
+    top: 46%;
+    left: 92%;
+    width: 5%;
+}
+.Boton_4 img:hover{
+    background-image: url("Objets_Color/Botonc4.png");
+    background-size: cover;
+    transition: all 500ms;
+    width: 120%;
+}
+
+
+/*cierra el 1366*/
+
+
+
